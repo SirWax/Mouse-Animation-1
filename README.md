@@ -3,7 +3,7 @@
 ***Click the image to try it out***
 ## Simple mouse animation setup made using p5JS.
 - Shoots random color blobs around the mouse when the mouse moves. Does nothing otherwise. *Very Satisfying* :relieved::pinched_fingers:.
-- Shows a trail whose width dynamically changes with the speed of the mouse. (Slows mouse has a thiner trail).
+- Shows a trail whose width changes dynamically with the speed of the mouse. (Slows mouse has a thiner trail).
 - Can be easily used as a wallpaper. Try [Lively](https://rocksdanister.github.io/lively/)
 
 ## Setup and run
