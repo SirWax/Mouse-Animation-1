@@ -1,5 +1,5 @@
 # ***Mouse Animation 1***
-[![Mouse Animation](https://buggermenot.github.io/Mouse-Animation-1/)] (https://user-images.githubusercontent.com/94090874/207052528-87d1bad4-318e-4b82-aae2-503aad643d3a.png)
+[![Mouse Animation](https://user-images.githubusercontent.com/94090874/207052528-87d1bad4-318e-4b82-aae2-503aad643d3a.png)](https://buggermenot.github.io/Mouse-Animation-1/)
 ## Simple mouse animation setup made using p5JS.
 - Shoots random color blobs around the mouse when the mouse moves. Does nothing otherwise. *Very Satisfying* :relieved::pinched_fingers:.
 - Shows a trail whose width dynamically changes with the speed of the mouse. (Slows mouse has a thiner trail).
