@@ -14,7 +14,7 @@ class Particle {
         const deltaV = this.dir.copy();
         deltaV.mult(dt);
         this.pos.add(deltaV);
-        this.velocity *=  0.90;
+        this.velocity *=  0.99;
     }
     show () {
         if (this.size > 0.1 && this.velocity > 1) {
