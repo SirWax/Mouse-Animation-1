@@ -17,7 +17,7 @@ class Particle {
         this.velocity *=  0.99;
     }
     show () {
-        if (this.size > 0.1 && this.velocity > 1) {
+        if (this.size > 0.1 && this.velocity > 0.1) {
             fill(this.color);
             noStroke();
             this.pos.x += random(-0.5, 0.5);
