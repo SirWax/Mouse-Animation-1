@@ -17,7 +17,7 @@ class Particle {
         const deltaV = this.dir.copy();
         deltaV.mult(dt);
         this.pos.add(deltaV);
-        this.velocity *=  0.99;
+        this.velocity *=  0.95;
     }
     show () {
         fill(this.color);
