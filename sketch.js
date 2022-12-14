@@ -44,12 +44,13 @@ function draw() {
   }
 
 
-  for (var i = particles.length; i >= 0; i--){
+  for (var i = 0; i < particles.length; i++){
     let p = particles[i];
     if (p.size < 0.1 || p.velocity <0.1) {
-      particle.splice(i,1);
+      particles.splice(i,1);
     } else {
-      p.show();
+    p.show();
     }
   }
+  console.log(particles.length)
 }
