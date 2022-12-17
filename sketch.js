@@ -14,7 +14,7 @@ function setup() {
 
 function draw() {
   background(0);
-  if (x != mouseX || y != mouseY){;
+  if (x != mouseX || y != mouseY){        // Checks if mouse is moving
     size = sqrt(pow(mouseX - x, 2) + pow(mouseY - y, 2));
     x = mouseX;
     y = mouseY;
